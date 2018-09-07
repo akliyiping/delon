@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ReuseTabService } from '@delon/abc';
+import { ReuseTabService } from '@tigers/abc';
 import { Router } from '@angular/router';
 
 @Component({

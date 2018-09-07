@@ -4,11 +4,11 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
-import { AlainThemeModule } from '@delon/theme';
-import { DelonABCModule } from '@delon/abc';
-import { DelonACLModule } from '@delon/acl';
-import { DelonMockModule } from '@delon/mock';
-import { DelonFormModule } from '@delon/form';
+import { AlainThemeModule } from '@tigers/theme';
+import { DelonABCModule } from '@tigers/abc';
+import { DelonACLModule } from '@tigers/acl';
+import { DelonMockModule } from '@tigers/mock';
+import { DelonFormModule } from '@tigers/form';
 
 // third libs
 import { CountdownModule } from 'ngx-countdown';

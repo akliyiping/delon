@@ -8,14 +8,14 @@ type: Other
 
 `1.0.x` 主要是对 ng-zorro-antd 0.7.0 的同步升级，由于 zorro 基础组件的api有比较大的变动，因此本文不会叙述关于 zorro 如果升级的问题。
 
-`1.0.x` 主要的变化是 `@delon/*` 系列业务组件的升级，其中这一部分并没有太多组件API的变动。反而尽可能在做一些减法，其主要包括：
+`1.0.x` 主要的变化是 `@tigers/*` 系列业务组件的升级，其中这一部分并没有太多组件API的变动。反而尽可能在做一些减法，其主要包括：
 
 - 移除十种主题色，改由动态[自定义主题](/tools/theme)
 - 移除 `forRoot()` 参数配置项，由 `provider` 统一配置，更易交付
-- `@delon/abc` 部分组件名的修改，这一部分可以直接搜索替换完成
+- `@tigers/abc` 部分组件名的修改，这一部分可以直接搜索替换完成
 - `ng-zorro-antd-extra` 不再维护，指引后面有变动细节
 - `ng-tree-antd` 不再维护，使用 `nz-tree`
-- `ng-clipboard-antd` 不再维护，使用 `@delon/util` 的 `copy` 方法
+- `ng-clipboard-antd` 不再维护，使用 `@tigers/util` 的 `copy` 方法
 
 **HTML模板升级工具**
 
@@ -23,7 +23,7 @@ type: Other
 
 **nz-schema-form**
 
-使用 `@delon/form` 替代。
+使用 `@tigers/form` 替代。
 
 ## 脚手架
 
@@ -80,13 +80,13 @@ type: Other
         - 增加 `if` 自定义条件表达式
         - 修改 `click` 中 `type=modal` 只会在当有传回值时才会触发回调
 
-## @delon/auth
+## @tigers/auth
 
 - 不再支持 `forRoot()` 参数变更，细节见 [用户认证](/docs/auth)
 - `AuthOptions` 换成 `DelonAuthConfig`
     - `ignores` 只支持正则表达式，无须受限于cli的BUG而使用字符串替代
 
-## @delon/cache
+## @tigers/cache
 
 - `expire` 统一单位为秒，并修改为 `number` 类型
 

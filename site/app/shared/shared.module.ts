@@ -4,10 +4,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
-import { AlainThemeModule } from '@delon/theme';
-import { DelonABCModule } from '@delon/abc';
-import { DelonACLModule } from '@delon/acl';
-import { DelonFormModule } from '@delon/form';
+import { AlainThemeModule } from '@tigers/theme';
+import { DelonABCModule } from '@tigers/abc';
+import { DelonACLModule } from '@tigers/acl';
+import { DelonFormModule } from '@tigers/form';
 
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { TranslateModule } from '@ngx-translate/core';

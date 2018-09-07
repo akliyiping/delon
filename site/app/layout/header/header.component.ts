@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild, Input } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { NzMessageService } from 'ng-zorro-antd';
-import { copy } from '@delon/util';
+import { copy } from '@tigers/util';
 
 import { I18NService } from '../../core/i18n/service';
 import { MobileService } from '../../core/mobile.service';

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { TitleService } from '@delon/theme';
+import { TitleService } from '@tigers/theme';
 import { I18NService } from '../core/i18n/service';
 
 @Injectable()

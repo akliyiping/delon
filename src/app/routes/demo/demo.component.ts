@@ -1,7 +1,7 @@
 
 import { Component } from '@angular/core';
 import { NzMessageService } from 'ng-zorro-antd';
-import { SFSchema } from '@delon/form';
+import { SFSchema } from '@tigers/form';
 
 @Component({
   selector: 'app-demo',

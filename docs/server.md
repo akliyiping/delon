@@ -16,7 +16,7 @@ ng-alain 是一套基于 Angular 技术栈的单页面应用，我们提供的�
 1. 首次启动 Angular 执行 `APP_INITIALIZER`；
 2. UI 组件交互操作；
 3. 使用封装的 [_HttpClient](/theme/http) 发送请求；
-4. 触发用户认证拦截器 [@delon/auth](/auth/getting-started)，统一加入 `token` 参数；
+4. 触发用户认证拦截器 [@tigers/auth](/auth/getting-started)，统一加入 `token` 参数；
     - 若未存在 `token` 或已过期中断后续请求，直接跳转至登录页；
 5. 触发默认拦截器，统一处理前缀等信息；
 6. 获取服务端返回；
@@ -47,7 +47,7 @@ ng-alain 是一套基于 Angular 技术栈的单页面应用，我们提供的�
 
 ## Mock
 
-有时候希望优先开发前端时，可以利用 @delon/mock 来模拟请求数据，实际原理是利用拦截器，对匹配的URL直接返回数据，而不是发送一个HTTP请求，默认情况下只对测试环境有效。当然通常情况下你需要确保 Mock 接口的数据与后端保持一致，你可以在 `_mock` 目录下创建相应的 Mock 接口：
+有时候希望优先开发前端时，可以利用 @tigers/mock 来模拟请求数据，实际原理是利用拦截器，对匹配的URL直接返回数据，而不是发送一个HTTP请求，默认情况下只对测试环境有效。当然通常情况下你需要确保 Mock 接口的数据与后端保持一致，你可以在 `_mock` 目录下创建相应的 Mock 接口：
 
 ```ts
 export const USERS = {
@@ -63,6 +63,6 @@ export const USERS = {
 
 **Q：** 请求可能被拒绝或直接返回 `401` ?
 
-脚手架默认情况下使用了 `@delon/auth` 的 `SimpleInterceptor` 拦截器，导致在请求过程中若发现无法获取 Token 时会直接返回错误。
+脚手架默认情况下使用了 `@tigers/auth` 的 `SimpleInterceptor` 拦截器，导致在请求过程中若发现无法获取 Token 时会直接返回错误。
 
 [用户认证](/docs/auth)这个过程是中台必备的。

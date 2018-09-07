@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ReuseTabService } from '@delon/abc';
+import { ReuseTabService } from '@tigers/abc';
 
 @Component({
     selector: 'app-reuse-tab',

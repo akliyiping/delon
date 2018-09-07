@@ -1,7 +1,7 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { en_US, zh_CN, NzI18nService } from 'ng-zorro-antd';
-import { AlainI18NService } from '@delon/theme';
+import { AlainI18NService } from '@tigers/theme';
 import { ENUS } from './en-US';
 import { ZHCN } from './zh-CN';
 

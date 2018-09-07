@@ -13,13 +13,13 @@ ng-alain 脚手架内提供了一套默认业务组件，这些组件抽象了�
 ng-alain 脚手架内用到的组件分为：
 
 - [ng-zorro-antd](//ng-zorro.github.io) 组件
-- [@delon/abc](/components) 组件
+- [@tigers/abc](/components) 组件
 
 这些组件都是独立发布在 Npm 上面，因此你都可以单独去使用它们：
 
 ```ts
 import { NgZorroAntdModule } from 'ng-zorro-antd';
-import { AlainABCModule } from '@delon/abc';
+import { AlainABCModule } from '@tigers/abc';
 ```
 
 默认情况下 ng-alain 这三种组件都全部导入进来，你可以根据你所需要按需导入相应的模块。
@@ -36,5 +36,5 @@ import { AlainABCModule } from '@delon/abc';
 
 组件会随着脚手架的更新而不断迭代，有任何问题和需求可以反馈到 [这里](https://github.com/cipchk/ng-alain/issues)。
 
-- 最新版本：[![@delon/abc](//img.shields.io/npm/v/@delon/abc.svg?style=flat-square)](//www.npmjs.com/package/@delon/abc)
+- 最新版本：[![@tigers/abc](//img.shields.io/npm/v/@tigers/abc.svg?style=flat-square)](//www.npmjs.com/package/@tigers/abc)
 - [更新日志](https://github.com/cipchk/ng-alain/releases)

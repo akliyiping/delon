@@ -10,7 +10,7 @@
         "node"
       ],
       "paths": {
-        "@delon/*": [ "../packages/*" ]
+        "@tigers/*": [ "../packages/*" ]
       }
     },
     "files": [

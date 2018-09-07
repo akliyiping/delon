@@ -30,7 +30,7 @@ type: Basic
 │   │   │   └── shared.module.ts                # 共享模块文件
 │   │   ├── app.component.ts                    # 根组件
 │   │   └── app.module.ts                       # 根模块
-│   │   └── delon.module.ts                     # @delon模块导入
+│   │   └── delon.module.ts                     # @tigers模块导入
 │   ├── assets                                  # 本地静态资源
 │   ├── environments                            # 环境变量配置
 │   ├── styles                                  # 样式目录
@@ -75,7 +75,7 @@ Mock 数据规则目录，若你通过 [命令行工具](/cli) 创建项目时�
 
 **src/app/delon.module.ts**
 
-针对 @delon 系列的模块导入集合，默认情况下导入所有模块，你可以利用[优化](/docs/performance)章节，进一步按需优化。
+针对 @tigers 系列的模块导入集合，默认情况下导入所有模块，你可以利用[优化](/docs/performance)章节，进一步按需优化。
 
 **src/styles/_alain-custom-variables.less**
 
@@ -119,7 +119,7 @@ Mock 数据规则目录，若你通过 [命令行工具](/cli) 创建项目时�
 
 位置：*src/app/layout/default/header*。
 
-脚手架默认提供了一些常规顶部区域组件，这些组件都存放于 *components* 目录中。同时 `@delon/abc` 也提供若干顶部组件（例如：[notice-icon](/components/notice-icon) 通知菜单组件）。你可以根据提供的组件自行组合或自行开发。
+脚手架默认提供了一些常规顶部区域组件，这些组件都存放于 *components* 目录中。同时 `@tigers/abc` 也提供若干顶部组件（例如：[notice-icon](/components/notice-icon) 通知菜单组件）。你可以根据提供的组件自行组合或自行开发。
 
 > 脚手架支持响应式布局，对于顶部区域可能会是在小屏幕下需要隐藏一些组件，因此你可以在对应的DOM节点上加上 `hidden-xs` 表示当屏幕小于 `768px` 时自动隐藏。
 

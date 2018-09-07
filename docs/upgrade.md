@@ -6,15 +6,15 @@ title:
 type: Dev
 ---
 
-在 [体系结构](/docs/architecture) 中我们已经描述了 ng-alain 脚手架的整体构成，我们花了大量时间去开发一些基础建设，并把这些以 `@delon/*` 系列发布至 Npm 当中，使得升级变得非常轻松。
+在 [体系结构](/docs/architecture) 中我们已经描述了 ng-alain 脚手架的整体构成，我们花了大量时间去开发一些基础建设，并把这些以 `@tigers/*` 系列发布至 Npm 当中，使得升级变得非常轻松。
 
 ## 发布规则
 
-同 `@angular/*` 类似，`@delon/*` 类库的版本号在每一个迭代时，不管某类库是否有修改，都会统一个版本号 ([![NPM version](https://img.shields.io/npm/v/@delon/theme.svg)](https://www.npmjs.com/package/@delon/theme)) 。
+同 `@angular/*` 类似，`@tigers/*` 类库的版本号在每一个迭代时，不管某类库是否有修改，都会统一个版本号 ([![NPM version](https://img.shields.io/npm/v/@tigers/theme.svg)](https://www.npmjs.com/package/@tigers/theme)) 。
 
 同时按以下发布规则及更新版本号说明：
 
-- `@delon` 作为基础建设类库，在更新频率上会略高，一般一周至少更新一次
+- `@tigers` 作为基础建设类库，在更新频率上会略高，一般一周至少更新一次
 - 带有 **BREAKING CHANGES** 至少提升一个次版本号
 - [更新日志](https://github.com/cipchk/ng-alain/releases)
 
@@ -22,10 +22,10 @@ type: Dev
 
 ### 方式一：修改版本号
 
-修改 `package.json` 所有 `@delon/` 开头的类库版本号为最新版本号：
+修改 `package.json` 所有 `@tigers/` 开头的类库版本号为最新版本号：
 
 ```
-"@delon/theme": "^0.7.1"
+"@tigers/theme": "^0.7.1"
 ```
 
 将 `^0.7.1` 替换成最新版本号。

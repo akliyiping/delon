@@ -1,4 +1,4 @@
-import { MockStatusError, MockRequest } from '@delon/mock';
+import { MockStatusError, MockRequest } from '@tigers/mock';
 // import * as Mock from 'mockjs';
 
 export const USERS = {

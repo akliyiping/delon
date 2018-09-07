@@ -6,7 +6,7 @@ title:
 type: Dev
 ---
 
-除了 ng-zorro-antd 基础组件以及脚手架内置的 @delon 业务组件，有时我们还需要引入其他外部模块，这里以引入富文本组件 [ngx-ueditor](https://github.com/cipchk/ngx-ueditor) 为例进行介绍。
+除了 ng-zorro-antd 基础组件以及脚手架内置的 @tigers 业务组件，有时我们还需要引入其他外部模块，这里以引入富文本组件 [ngx-ueditor](https://github.com/cipchk/ngx-ueditor) 为例进行介绍。
 
 ## 引入依赖
 

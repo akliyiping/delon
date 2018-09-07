@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ModalHelper } from '@delon/theme';
+import { ModalHelper } from '@tigers/theme';
 import { DemoModalComponent } from './modal.component';
 
 @Component({

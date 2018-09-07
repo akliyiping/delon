@@ -1,6 +1,6 @@
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { ReuseTabService } from '@delon/abc';
+import { ReuseTabService } from '@tigers/abc';
 
 @Component({
     selector: 'reuse-tab-edit',

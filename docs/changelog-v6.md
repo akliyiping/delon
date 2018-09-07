@@ -12,7 +12,7 @@ Angular6（后面简称：v6）受限于 Angular Cli 的 BUG，需要额外的�
 
 - 所有 `v6` 相关版本将统一以 `1.0.1-beta.*` 发布，以防止类库在 v5 之前由于 bug 修复导致版本混乱控制。同时，未来第一个 `1.0` 版本也将从 `1.0.1` 开始；当然 `master` 分支下将保持最新。
 - 在你升级之前请先 **务必** 再三确认引用的第三方类库是否已经支持 v6，再考虑升级。
-- `@delon/cli` 不支持 v6，后续会有 `ng add` 支持
+- `@tigers/cli` 不支持 v6，后续会有 `ng add` 支持
 - v6 相关变更分为两个 Commit，可以根据他们了解具体的变更内容
   - 主要结构：[7927d4](https://github.com/cipchk/ng-alain/commit/7927d48395755ecde8d0c4255be63011aef74d8c)
   - 示例页：[47a458](https://github.com/cipchk/ng-alain/commit/47a458bc974d05c83b3d07b59caae848884b2fdf)
@@ -75,7 +75,7 @@ v6 的文件结构有点小调整，虽然不影响，但你依然需要知道�
 
 一些细节：
 
-- 移除 `@delon/cli` 相关的 `schematics` 节点
+- 移除 `@tigers/cli` 相关的 `schematics` 节点
 
 ### 6、less 的修复
 
@@ -90,14 +90,14 @@ devDependencies: [
 
 **styles.less**
 
-修改 `./src/styles.less` 的第三方类库的引用方式，应该说目录并不支持 `~@delon` 这种写法，统一采用 `node_modules/@delon`：
+修改 `./src/styles.less` 的第三方类库的引用方式，应该说目录并不支持 `~@tigers` 这种写法，统一采用 `node_modules/@tigers`：
 
 ```less
-@import '~@delon/theme/styles/index';
-@import '~@delon/abc/index';
+@import '~@tigers/theme/styles/index';
+@import '~@tigers/abc/index';
 // 替换成：
-@import 'node_modules/@delon/theme/styles/index';
-@import 'node_modules/@delon/abc/index';
+@import 'node_modules/@tigers/theme/styles/index';
+@import 'node_modules/@tigers/abc/index';
 ```
 
 ## 升级 rxjs6

@@ -1,5 +1,5 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
-import { Menu, MenuService, SettingsService } from '@delon/theme';
+import { Menu, MenuService, SettingsService } from '@tigers/theme';
 
 @Component({
     selector: 'theme-layout',

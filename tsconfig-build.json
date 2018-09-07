@@ -7,7 +7,7 @@
     "module": "es2015",
     "moduleResolution": "node",
     "noEmitOnError": true,
-    "outDir": "./dist/@delon",
+    "outDir": "./dist/@tigers",
     "rootDir": "./dist/packages",
     "sourceMap": true,
     "target": "es5",
@@ -15,10 +15,10 @@
     "stripInternal": true,
     "baseUrl": ".",
     "paths": {
-      "@delon/theme": ["./dist/packages/theme"],
-      "@delon/abc": ["./dist/packages/abc"],
-      "@delon/acl": ["./dist/packages/acl"],
-      "@delon/util": ["./dist/packages/util"]
+      "@tigers/theme": ["./dist/packages/theme"],
+      "@tigers/abc": ["./dist/packages/abc"],
+      "@tigers/acl": ["./dist/packages/acl"],
+      "@tigers/util": ["./dist/packages/util"]
     },
     "skipLibCheck": true,
     "typeRoots": ["node_modules/@types"]

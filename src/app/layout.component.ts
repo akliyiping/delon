@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuService, SettingsService, Menu } from '@delon/theme';
+import { MenuService, SettingsService, Menu } from '@tigers/theme';
 import { NzMessageService } from 'ng-zorro-antd';
 
 @Component({

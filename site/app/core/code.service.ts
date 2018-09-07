@@ -21,7 +21,7 @@ export class CodeService {
     sdk.openProject({
       title,
       description: `${title}-${summary.replace(/<[^>]+>/g, '')}`,
-      tags: ['ng-alain', '@delon'],
+      tags: ['ng-alain', '@tigers'],
       files: {
         'angular.json': `{
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
@@ -48,7 +48,7 @@ export class CodeService {
               "src/assets"
             ],
             "styles": [
-              "node_modules/@delon/theme/styles/ng-alain.css",
+              "node_modules/@tigers/theme/styles/ng-alain.css",
               "src/styles.less"
             ],
             "scripts": [
@@ -206,13 +206,13 @@ import localeZh from '@angular/common/locales/zh';
 registerLocaleData(localeZh);
 
 import { NgZorroAntdModule } from 'ng-zorro-antd';
-import { AlainThemeModule } from '@delon/theme';
-import { DelonABCModule } from '@delon/abc';
-import { DelonFormModule } from '@delon/form';
-import { DelonAuthModule } from '@delon/auth';
-import { DelonACLModule } from '@delon/acl';
-import { DelonCacheModule } from '@delon/cache';
-import { DelonUtilModule, LazyService } from '@delon/util';
+import { AlainThemeModule } from '@tigers/theme';
+import { DelonABCModule } from '@tigers/abc';
+import { DelonFormModule } from '@tigers/form';
+import { DelonAuthModule } from '@tigers/auth';
+import { DelonACLModule } from '@tigers/acl';
+import { DelonCacheModule } from '@tigers/cache';
+import { DelonUtilModule, LazyService } from '@tigers/util';
 
 @Injectable()
 export class StartupService {
@@ -280,14 +280,14 @@ export class AppModule { }
         'file-saver': '^1.3.3',
         'ngx-countdown': '*',
         'ng-zorro-antd': '*',
-        '@delon/theme': '*',
-        '@delon/abc': '*',
-        '@delon/acl': '*',
-        '@delon/auth': '*',
-        '@delon/cache': '*',
-        '@delon/mock': '*',
-        '@delon/form': '*',
-        '@delon/util': '*',
+        '@tigers/theme': '*',
+        '@tigers/abc': '*',
+        '@tigers/acl': '*',
+        '@tigers/auth': '*',
+        '@tigers/cache': '*',
+        '@tigers/mock': '*',
+        '@tigers/form': '*',
+        '@tigers/util': '*',
         'extend': '*',
         'rxjs-compat': '*',
       },

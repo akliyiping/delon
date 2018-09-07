@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { _HttpClient } from '@delon/theme';
-import { SFSchema } from '@delon/form';
+import { _HttpClient } from '@tigers/theme';
+import { SFSchema } from '@tigers/form';
 import { NzMessageService } from 'ng-zorro-antd';
-import { copy } from '@delon/util';
+import { copy } from '@tigers/util';
 import { I18NService } from '../../../core/i18n/service';
 import { CodeService } from '../../../core/code.service';
 
 const stackBlitzTpl = `
 import { Component } from '@angular/core';
-import { SFSchema } from '@delon/form';
+import { SFSchema } from '@tigers/form';
 import { NzMessageService } from 'ng-zorro-antd';
 
 @Component({
@@ -119,7 +119,7 @@ export class FormValidatorComponent implements OnInit {
     this.codeSrv.openOnStackBlitz(
       componentCode,
       this.title,
-      `@delon/form-${this.title}-${this.name}.json`,
+      `@tigers/form-${this.title}-${this.name}.json`,
     );
   }
 

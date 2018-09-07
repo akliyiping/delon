@@ -1,4 +1,4 @@
-import { preloaderFinished } from '@delon/theme';
+import { preloaderFinished } from '@tigers/theme';
 import { NgModule } from '@angular/core';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';

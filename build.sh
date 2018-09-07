@@ -100,7 +100,7 @@ do
 
   ROOT_DIR=${PWD}/dist/packages
   SRC_DIR=${ROOT_DIR}/${PACKAGE}
-  ROOT_OUT_DIR=${PWD}/dist/@delon
+  ROOT_OUT_DIR=${PWD}/dist/@tigers
   OUT_DIR=${ROOT_OUT_DIR}/${PACKAGE}
   NPM_DIR=${PWD}/dist/packages-dist/${PACKAGE}
   ES2015_DIR=${NPM_DIR}/_es2015

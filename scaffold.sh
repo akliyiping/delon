@@ -33,7 +33,7 @@ updateVersionReferences() {
     PACKAGE_NAMES=(abc acl auth cache mock form theme util)
     for name in ${PACKAGE_NAMES[@]}
     do
-        sed -i "s/\"@delon\/${name}\":[ ]*\"[^\"]*\"/\"@delon\/${name}\": \"^${VERSION}\"/g" ${PACKAGE_DIR}
+        sed -i "s/\"@tigers\/${name}\":[ ]*\"[^\"]*\"/\"@tigers\/${name}\": \"^${VERSION}\"/g" ${PACKAGE_DIR}
     done
   )
 }

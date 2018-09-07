@@ -1,7 +1,7 @@
 import { Component, HostBinding, OnDestroy, Inject } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
-import { TitleService, ALAIN_I18N_TOKEN } from '@delon/theme';
+import { TitleService, ALAIN_I18N_TOKEN } from '@tigers/theme';
 import { MetaService } from './core/meta.service';
 import { MobileService } from './core/mobile.service';
 import { I18NService } from './core/i18n/service';

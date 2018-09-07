@@ -49,7 +49,7 @@ npm install @antv/g2 @antv/data-set @antv/g2-plugin-slider --save
 
 ## 自定义 G2 组件
 
-`@delon/abc` 提供了一个自定义G2组件的容器，可以减少不必要的组件渲染过程中所产生的奇怪问题。
+`@tigers/abc` 提供了一个自定义G2组件的容器，可以减少不必要的组件渲染过程中所产生的奇怪问题。
 
 一个完整的示例见 [chart.md](https://github.com/cipchk/delon/blob/master/packages/abc/components/charts/demo/chart.md)。
 

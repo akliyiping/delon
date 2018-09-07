@@ -2,13 +2,13 @@ import { NgModule, Optional, SkipSelf, ModuleWithProviders } from '@angular/core
 import { throwIfAlreadyLoaded } from './core/module-import-guard';
 
 import { NgZorroAntdModule } from 'ng-zorro-antd';
-import { AlainThemeModule } from '@delon/theme';
-import { DelonFormModule } from '@delon/form';
-import { DelonUtilModule } from '@delon/util';
+import { AlainThemeModule } from '@tigers/theme';
+import { DelonFormModule } from '@tigers/form';
+import { DelonUtilModule } from '@tigers/util';
 
 // region: global config functions
 
-import { AdLodopConfig, DelonABCModule } from '@delon/abc';
+import { AdLodopConfig, DelonABCModule } from '@tigers/abc';
 
 export function adLodopConfig(): AdLodopConfig {
     return Object.assign(new AdLodopConfig(), {
