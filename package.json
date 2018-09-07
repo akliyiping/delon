@@ -1,6 +1,6 @@
 {
-  "name": "delon",
-  "version": "1.4.0",
+  "name": "tigers",
+  "version": "1.0.0",
   "typings": "index.d.ts",
   "description": "Delon is a set of essential modules for ng-alain.",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/cipchk/delon.git"
   },
   "keywords": [
+    "tigers",
     "delon",
     "ng-alain",
     "alain",
