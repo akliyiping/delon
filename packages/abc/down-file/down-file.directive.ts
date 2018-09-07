@@ -9,7 +9,7 @@ import {
 } from '@angular/core';
 import { HttpResponse, HttpClient } from '@angular/common/http';
 import { saveAs } from 'file-saver';
-import { _HttpClient } from '@delon/theme';
+import { _HttpClient } from '@tigers/theme';
 
 /**
  * 文件下载

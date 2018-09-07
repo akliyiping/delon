@@ -5,11 +5,11 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@delon/theme": ["../../packages-dist/theme"],
-      "@delon/acl": ["../../packages-dist/acl"],
-      "@delon/util": ["../../packages-dist/util"]
+      "@tigers/theme": ["../../packages-dist/theme"],
+      "@tigers/acl": ["../../packages-dist/acl"],
+      "@tigers/util": ["../../packages-dist/util"]
     },
-    "outDir": "../../@delon/abc"
+    "outDir": "../../@tigers/abc"
   },
 
   "files": ["public_api.ts", "../typings.d.ts"],
@@ -19,6 +19,6 @@
     "strictMetadataEmit": false,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "@delon/abc"
+    "flatModuleId": "@tigers/abc"
   }
 }

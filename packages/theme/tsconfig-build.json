@@ -5,9 +5,9 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@delon/acl": ["../../packages-dist/acl"]
+      "@tigers/acl": ["../../packages-dist/acl"]
     },
-    "outDir": "../../@delon/theme"
+    "outDir": "../../@tigers/theme"
   },
 
   "files": ["public_api.ts"],
@@ -17,6 +17,6 @@
     "strictMetadataEmit": false,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "@delon/theme"
+    "flatModuleId": "@tigers/theme"
   }
 }

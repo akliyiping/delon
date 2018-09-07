@@ -10,7 +10,7 @@ import { RoutesModule } from './routes/routes.module';
 import { LayoutModule } from './layout/layout.module';
 import { StartupService } from '@core/startup/startup.service';
 import { DefaultInterceptor } from '@core/net/default.interceptor';
-import { SimpleInterceptor } from '@delon/auth';
+import { SimpleInterceptor } from '@tigers/auth';
 // angular i18n
 import { registerLocaleData } from '@angular/common';
 import localeZhHans from '@angular/common/locales/zh-Hans';
@@ -18,7 +18,7 @@ registerLocaleData(localeZhHans);<% if (i18n) { %>
 // i18n
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { ALAIN_I18N_TOKEN } from '@delon/theme';
+import { ALAIN_I18N_TOKEN } from '@tigers/theme';
 import { I18NService } from '@core/i18n/i18n.service';
 
 // 加载i18n语言文件
@@ -26,7 +26,7 @@ export function I18nHttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, `assets/tmp/i18n/`, '.json');
 }<% } %>
 <% if (form) { %>
-// @delon/form: JSON Schema form
+// @tigers/form: JSON Schema form
 import { JsonSchemaModule } from '@shared/json-schema/json-schema.module';<% } %>
 
 export function StartupServiceFactory(startupService: StartupService): Function {

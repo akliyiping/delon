@@ -1,5 +1,5 @@
 import { TestBed, ComponentFixture } from '@angular/core/testing';
-import { LazyService } from '@delon/util';
+import { LazyService } from '@tigers/util';
 import { HttpClient } from '@angular/common/http';
 import { of, throwError } from 'rxjs';
 import { Component, DebugElement } from '@angular/core';

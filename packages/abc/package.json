@@ -1,5 +1,5 @@
 {
-  "name": "@delon/abc",
+  "name": "@tigers/abc",
   "version": "0.0.0-PLACEHOLDER",
   "main": "./bundles/abc.umd.js",
   "module": "./esm5/abc.js",
@@ -30,9 +30,9 @@
   },
   "peerDependencies": {
     "qrious": "^4.0.2",
-    "@delon/theme": "PEER-0.0.0-PLACEHOLDER",
-    "@delon/util": "PEER-0.0.0-PLACEHOLDER",
-    "@delon/acl": "PEER-0.0.0-PLACEHOLDER"
+    "@tigers/theme": "PEER-0.0.0-PLACEHOLDER",
+    "@tigers/util": "PEER-0.0.0-PLACEHOLDER",
+    "@tigers/acl": "PEER-0.0.0-PLACEHOLDER"
   },
   "sideEffects": false
 }

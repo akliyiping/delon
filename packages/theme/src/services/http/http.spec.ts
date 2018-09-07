@@ -5,7 +5,7 @@ import {
 } from '@angular/common/http/testing';
 import { Injector } from '@angular/core';
 import { TestBed, fakeAsync, tick } from '@angular/core/testing';
-import { deepCopy } from '@delon/util';
+import { deepCopy } from '@tigers/util';
 
 import { _HttpClient } from './http.client';
 import { HttpClientConfig } from './http.config';

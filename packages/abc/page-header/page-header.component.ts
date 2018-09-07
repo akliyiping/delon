@@ -14,14 +14,14 @@ import {
   OnDestroy,
 } from '@angular/core';
 import { Router } from '@angular/router';
-import { toBoolean, isEmpty } from '@delon/util';
+import { toBoolean, isEmpty } from '@tigers/util';
 import {
   MenuService,
   ALAIN_I18N_TOKEN,
   AlainI18NService,
   Menu,
   TitleService,
-} from '@delon/theme';
+} from '@tigers/theme';
 import { ReuseTabService } from '../reuse-tab/reuse-tab.service';
 
 import { AdPageHeaderConfig } from './page-header.config';

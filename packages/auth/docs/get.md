@@ -19,7 +19,7 @@ Token 的获取分为两大类，一是自己的用户认证中心，二是社�
 
 ### 打开
 
-`SocialService` 提供了 `open()` 方法，用于打开一个登录框。默认情况下它本身并不在注册到任何模块当中，因为 `@delon/auth` 认为需要这类服务通常只会在登录过程中产生，因此没有必要在全局注入；只需要在使用 `SocialService` 对应组件中注入即可，当然你要愿意也可以在根模块中注入。
+`SocialService` 提供了 `open()` 方法，用于打开一个登录框。默认情况下它本身并不在注册到任何模块当中，因为 `@tigers/auth` 认为需要这类服务通常只会在登录过程中产生，因此没有必要在全局注入；只需要在使用 `SocialService` 对应组件中注入即可，当然你要愿意也可以在根模块中注入。
 
 ```ts
 @Component({
@@ -46,7 +46,7 @@ this.socialService.login(`//github.com/login/oauth/authorize?xxxxxx`, '/', {
 
 回调页面是指授权成功后携带的认证信息；以往你可能直接在后端将认证信息写入 Cookie 会自动在请求结束后写入浏览器，而对于 Angular 这类单页而言，特别是前后端分离部署时，这种方式变成无法实现。
 
-因此 `@delon/auth` 是从回调页 URL 地址上携带信息作为获取源，当然它会受 URL 本身受限（例如：长度）；但我想对一个 Token 值是足够长的，你可以获取到 Token，再获取用户信息。
+因此 `@tigers/auth` 是从回调页 URL 地址上携带信息作为获取源，当然它会受 URL 本身受限（例如：长度）；但我想对一个 Token 值是足够长的，你可以获取到 Token，再获取用户信息。
 
 需要创建一个用于回调的页面，而页面唯一要做的就是在 `ngOnInit` 时调用 `callback()` 方法（例如：[callback.component.ts](https://github.com/cipchk/ng-alain/blob/master/src/app/routes/callback/callback.component.ts#L24)）：
 

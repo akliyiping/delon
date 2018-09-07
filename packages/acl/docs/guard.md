@@ -10,13 +10,13 @@ type: Documents
 
 路由守卫是指，当用户进入路由前若不满足权限时是无法进入。
 
-路由守卫需要单独对每一个路由进行设置，很多时候这看起来很繁琐，`@delon/acl` 实现了一个通过守卫类 `ACLGuard`，可以在路由注册时透过简单的配置完成一些复杂的操作，甚至支持 `Observable` 类型。
+路由守卫需要单独对每一个路由进行设置，很多时候这看起来很繁琐，`@tigers/acl` 实现了一个通过守卫类 `ACLGuard`，可以在路由注册时透过简单的配置完成一些复杂的操作，甚至支持 `Observable` 类型。
 
 ## 示例
 
 ```ts
 import { of } from 'rxjs';
-import { ACLGuard } from '@delon/acl';
+import { ACLGuard } from '@tigers/acl';
 const routes: Routes = [
     {
         path: 'guard',

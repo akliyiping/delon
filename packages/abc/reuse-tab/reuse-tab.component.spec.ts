@@ -23,7 +23,7 @@ import {
   RouteReuseStrategy,
 } from '@angular/router';
 
-import { MenuService, ALAIN_I18N_TOKEN } from '@delon/theme';
+import { MenuService, ALAIN_I18N_TOKEN } from '@tigers/theme';
 
 import { AdReuseTabModule } from './reuse-tab.module';
 import { ReuseTabComponent } from './reuse-tab.component';

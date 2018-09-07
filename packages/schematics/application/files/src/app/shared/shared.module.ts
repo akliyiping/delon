@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 // delon
-import { AlainThemeModule } from '@delon/theme';
-import { DelonABCModule } from '@delon/abc';
-import { DelonACLModule } from '@delon/acl';
-<% if (form) { %>import { DelonFormModule } from '@delon/form';<% } %><% if (i18n) { %>
+import { AlainThemeModule } from '@tigers/theme';
+import { DelonABCModule } from '@tigers/abc';
+import { DelonACLModule } from '@tigers/acl';
+<% if (form) { %>import { DelonFormModule } from '@tigers/form';<% } %><% if (i18n) { %>
 // i18n
 import { TranslateModule } from '@ngx-translate/core';<% } %>
 

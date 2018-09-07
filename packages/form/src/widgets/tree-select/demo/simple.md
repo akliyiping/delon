@@ -17,7 +17,7 @@ Simplest of usage.
 
 ```ts
 import { Component } from '@angular/core';
-import { SFSchema } from '@delon/form';
+import { SFSchema } from '@tigers/form';
 import { NzMessageService, NzFormatEmitEvent } from 'ng-zorro-antd';
 import { of } from 'rxjs';
 

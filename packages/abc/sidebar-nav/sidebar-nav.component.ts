@@ -16,7 +16,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { DOCUMENT, LocationStrategy } from '@angular/common';
 import { Subscription } from 'rxjs';
 import { filter } from 'rxjs/operators';
-import { MenuService, SettingsService, Menu } from '@delon/theme';
+import { MenuService, SettingsService, Menu } from '@tigers/theme';
 
 import { Nav } from './interface';
 

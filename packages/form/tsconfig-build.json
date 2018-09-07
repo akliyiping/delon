@@ -5,9 +5,9 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@delon/util": ["../../packages-dist/util"]
+      "@tigers/util": ["../../packages-dist/util"]
     },
-    "outDir": "../../@delon/form"
+    "outDir": "../../@tigers/form"
   },
 
   "files": ["public_api.ts"],
@@ -17,6 +17,6 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "@delon/form"
+    "flatModuleId": "@tigers/form"
   }
 }

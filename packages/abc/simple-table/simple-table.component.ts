@@ -18,7 +18,7 @@ import {
 import { DecimalPipe, DOCUMENT } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { ACLService } from '@delon/acl';
+import { ACLService } from '@tigers/acl';
 import { Observable, Subscription, of } from 'rxjs';
 import { tap, map, filter } from 'rxjs/operators';
 import {
@@ -29,8 +29,8 @@ import {
   ALAIN_I18N_TOKEN,
   AlainI18NService,
   ModalHelperOptions,
-} from '@delon/theme';
-import { deepGet, deepCopy, toBoolean, toNumber } from '@delon/util';
+} from '@tigers/theme';
+import { deepGet, deepCopy, toBoolean, toNumber } from '@tigers/util';
 
 import {
   SimpleTableColumn,

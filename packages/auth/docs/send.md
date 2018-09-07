@@ -6,7 +6,7 @@ type: Documents
 
 ## 认证风格
 
-通过HTTP拦截器在每一个请求中加入相应的认证信息，这是再好不过。`@delonn/auth` 根据两种不同认证风格，实现两种各自的HTTP拦截器。
+通过HTTP拦截器在每一个请求中加入相应的认证信息，这是再好不过。`@tigersn/auth` 根据两种不同认证风格，实现两种各自的HTTP拦截器。
 
 ### SimpleInterceptor
 

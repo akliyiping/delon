@@ -8,7 +8,7 @@ type: Documents
 
 Mock 是指通过生成模拟数据让前端开发人员独立于后端进行开发，有时我们也会运用在测试环境中。
 
-`@delon/mock` 是一个简单 Mock 功能，包括以下几个特征：
+`@tigers/mock` 是一个简单 Mock 功能，包括以下几个特征：
 
 - 任意 Angular 项目
 - 开发无侵入
@@ -17,16 +17,16 @@ Mock 是指通过生成模拟数据让前端开发人员独立于后端进行开
 
 ## 如何使用？
 
-安装 `@delon/mock` 依赖包：
+安装 `@tigers/mock` 依赖包：
 
 ```bash
-npm install @delon/mock --save-dev
+npm install @tigers/mock --save-dev
 ```
 
 在根模块 `AppModule` 导入 [Mock 规则数据](/mock/rule)和 `DelonMockModule`；
 
 ```ts
-import { DelonMockModule } from '@delon/mock';
+import { DelonMockModule } from '@tigers/mock';
 import * as MOCKDATA from '../../_mock';
 // 只对开发环境有效
 import { environment } from '../environments/environment';
@@ -57,7 +57,7 @@ Mock 并非是真实数据，大部分场景是针对开发本地或测试环境
 当然，你依然可以在生产环境也使用这种规则，就像 https://cipchk.github.io/ng-alain/ 一样，需要一些模拟请求来保证环境的运行。
 
 ```ts
-import { DelonMockModule } from '@delon/mock';
+import { DelonMockModule } from '@tigers/mock';
 import * as MOCKDATA from '../../_mock';
 @NgModule({
   imports: [

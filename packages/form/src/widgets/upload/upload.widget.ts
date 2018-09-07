@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { deepGet } from '@delon/util';
+import { deepGet } from '@tigers/util';
 import { UploadFile, UploadChangeParam, NzModalService } from 'ng-zorro-antd';
 import { ControlWidget } from '../../widget';
 import { getData, toBool } from '../../utils';

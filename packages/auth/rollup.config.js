@@ -14,7 +14,7 @@ const globals = {
   'rxjs'          : 'Rx',
   'rxjs/operators': 'Rx.Observable.prototype',
 
-  '@delon/theme': 'delon.theme',
+  '@tigers/theme': 'delon.theme',
 };
 
 const plugins = [sourcemaps(), resolve()];

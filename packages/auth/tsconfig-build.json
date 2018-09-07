@@ -5,10 +5,10 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@delon/theme": ["../../packages-dist/theme"],
-      "@delon/acl": ["../../packages-dist/acl"]
+      "@tigers/theme": ["../../packages-dist/theme"],
+      "@tigers/acl": ["../../packages-dist/acl"]
     },
-    "outDir": "../../@delon/auth"
+    "outDir": "../../@tigers/auth"
   },
 
   "files": ["public_api.ts"],
@@ -18,6 +18,6 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "@delon/auth"
+    "flatModuleId": "@tigers/auth"
   }
 }

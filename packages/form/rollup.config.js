@@ -22,7 +22,7 @@ const globals = {
 
   'date-fns/format': 'date-fns/format/index',
 
-  '@delon/util': 'delon.util',
+  '@tigers/util': 'delon.util',
 };
 
 const listOfDateFns = [

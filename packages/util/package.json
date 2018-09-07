@@ -1,5 +1,5 @@
 {
-  "name": "@delon/util",
+  "name": "@tigers/util",
   "version": "0.0.0-PLACEHOLDER",
   "main": "./bundles/util.umd.js",
   "module": "./esm5/util.js",

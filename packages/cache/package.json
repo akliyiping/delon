@@ -1,5 +1,5 @@
 {
-  "name": "@delon/cache",
+  "name": "@tigers/cache",
   "version": "0.0.0-PLACEHOLDER",
   "main": "./bundles/cache.umd.js",
   "module": "./esm5/cache.js",

@@ -12,7 +12,7 @@ import {
   SimpleTableChange,
   SimpleTableFilter,
   SimpleTableButton,
-} from '@delon/abc';
+} from '@tigers/abc';
 import { NzMessageService } from 'ng-zorro-antd';
 import { DemoModalComponent } from 'app/shared/components/modal/demo.component';
 

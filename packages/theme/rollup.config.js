@@ -13,7 +13,7 @@ const globals = {
   '@angular/common/http': 'ng.common.http',
 
   'ng-zorro-antd': 'ngZorro.antd',
-  '@delon/acl': 'delon.acl',
+  '@tigers/acl': 'delon.acl',
 
   'rxjs'          : 'Rx',
   'rxjs/operators': 'Rx.Observable.prototype',

@@ -4,20 +4,20 @@ title: 开始使用
 type: Documents
 ---
 
-@delon/util 是一组日常普通使用的工具函数的集合。
+@tigers/util 是一组日常普通使用的工具函数的集合。
 
 ## 如何使用？
 
-安装 `@delon/util` 依赖包：
+安装 `@tigers/util` 依赖包：
 
 ```bash
-npm install @delon/util --save
+npm install @tigers/util --save
 ```
 
 导入 `DelonUtilModule` 模块：
 
 ```typescript
-import { DelonUtilModule } from '@delon/util';
+import { DelonUtilModule } from '@tigers/util';
 
 @NgModule({
   imports: [
@@ -32,7 +32,7 @@ export class AppModule { }
 通用配置项，例如统一对 `ArrayService` 设置映射名称。
 
 ```ts
-import { DelonUtilConfig } from '@delon/abc';
+import { DelonUtilConfig } from '@tigers/abc';
 export function fnDelonUtilConfig(): DelonUtilConfig {
   return Object.assign(new DelonUtilConfig(), <DelonUtilConfig>{
     array: {
@@ -59,7 +59,7 @@ export class DelonModule {
 
 ```ts
 import { Component } from '@angular/core';
-import { yuan } from '@delon/util';
+import { yuan } from '@tigers/util';
 
 @Component({
   selector: 'app-demo',

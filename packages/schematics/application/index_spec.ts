@@ -10,15 +10,15 @@ describe('NgAlainSchematic: application', () => {
 
   describe(`update package.json`, () => {
     beforeEach(() => ({ runner, tree } = createAlainApp()));
-    it(`should add @delon to dependencies`, () => {
+    it(`should add @tigers to dependencies`, () => {
       const packageJson = JSON.parse(tree.readContent('package.json'));
-      expect(packageJson.dependencies['@delon/theme']).toBeDefined();
-      expect(packageJson.dependencies['@delon/abc']).toBeDefined();
-      expect(packageJson.dependencies['@delon/util']).toBeDefined();
-      expect(packageJson.dependencies['@delon/acl']).toBeDefined();
-      expect(packageJson.dependencies['@delon/auth']).toBeDefined();
-      expect(packageJson.dependencies['@delon/cache']).toBeDefined();
-      expect(packageJson.dependencies['@delon/mock']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/theme']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/abc']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/util']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/acl']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/auth']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/cache']).toBeDefined();
+      expect(packageJson.dependencies['@tigers/mock']).toBeDefined();
     });
   });
 

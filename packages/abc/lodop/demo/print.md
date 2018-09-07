@@ -8,7 +8,7 @@ title: 基础信息
 ```ts
 import { Component } from '@angular/core';
 import { NzMessageService, NzNotificationService } from 'ng-zorro-antd';
-import { LodopService, Lodop } from '@delon/abc';
+import { LodopService, Lodop } from '@tigers/abc';
 
 @Component({
     selector: 'app-demo',

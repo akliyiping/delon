@@ -1,4 +1,4 @@
-# @delon/mock module [![Build Status](https://travis-ci.org/cipchk/delon.svg?branch=master)](https://travis-ci.org/cipchk/delon) [![NPM version](https://img.shields.io/npm/v/@delon/mock.svg)](https://www.npmjs.com/package/@delon/mock) [![NPM version](https://img.shields.io/npm/v/@delon/mock/next.svg)](https://www.npmjs.com/package/@delon/mock) [![Taobao version](https://npm.taobao.org/badge/v/@delon/mock.svg?style=flat-square)](https://npm.taobao.org/package/@delon/mock)
+# @tigers/mock module [![Build Status](https://travis-ci.org/cipchk/delon.svg?branch=master)](https://travis-ci.org/cipchk/delon) [![NPM version](https://img.shields.io/npm/v/@tigers/mock.svg)](https://www.npmjs.com/package/@tigers/mock) [![NPM version](https://img.shields.io/npm/v/@tigers/mock/next.svg)](https://www.npmjs.com/package/@tigers/mock) [![Taobao version](https://npm.taobao.org/badge/v/@tigers/mock.svg?style=flat-square)](https://npm.taobao.org/package/@tigers/mock)
 
 Generate random data, intercept http requests.
 

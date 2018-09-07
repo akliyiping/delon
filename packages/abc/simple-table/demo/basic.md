@@ -7,7 +7,7 @@ title: 基础
 
 ```ts
 import { Component } from "@angular/core";
-import { SimpleTableColumn } from "@delon/abc";
+import { SimpleTableColumn } from "@tigers/abc";
 
 @Component({
   selector: "app-demo",

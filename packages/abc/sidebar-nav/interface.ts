@@ -1,4 +1,4 @@
-import { Menu } from '@delon/theme';
+import { Menu } from '@tigers/theme';
 
 export interface Nav extends Menu {
   /**

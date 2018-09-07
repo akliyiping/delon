@@ -2,7 +2,7 @@ import { Injectable, Inject, Optional, OnDestroy } from '@angular/core';
 import { Observable, Subscription, BehaviorSubject } from 'rxjs';
 import { share } from 'rxjs/operators';
 
-import { ACLService } from '@delon/acl';
+import { ACLService } from '@tigers/acl';
 
 import { ALAIN_I18N_TOKEN, AlainI18NService } from '../i18n/i18n';
 import { Menu } from './interface';

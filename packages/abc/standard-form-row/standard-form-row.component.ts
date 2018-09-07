@@ -7,7 +7,7 @@ import {
   Renderer2,
   SimpleChange,
 } from '@angular/core';
-import { toBoolean, updateHostClass } from '@delon/util';
+import { toBoolean, updateHostClass } from '@tigers/util';
 
 @Component({
   selector: 'standard-form-row',

@@ -7,7 +7,7 @@ title: 图表卡片
 
 ```ts
 import { Component } from '@angular/core';
-import { yuan } from '@delon/util';
+import { yuan } from '@tigers/util';
 
 @Component({
   selector: 'app-demo',

@@ -29,14 +29,14 @@
   "ng-update": {
     "migrations": "./migration.json",
     "packageGroup": [
-      "@delon/acl",
-      "@delon/theme",
-      "@delon/abc",
-      "@delon/util",
-      "@delon/auth",
-      "@delon/cache",
-      "@delon/mock",
-      "@delon/form",
+      "@tigers/acl",
+      "@tigers/theme",
+      "@tigers/abc",
+      "@tigers/util",
+      "@tigers/auth",
+      "@tigers/cache",
+      "@tigers/mock",
+      "@tigers/form",
       "ng-alain",
       "ng-zorro-antd"
     ]

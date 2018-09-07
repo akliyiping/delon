@@ -1,5 +1,5 @@
 {
-  "name": "@delon/form",
+  "name": "@tigers/form",
   "version": "0.0.0-PLACEHOLDER",
   "main": "./bundles/form.umd.js",
   "module": "./esm5/form.js",
@@ -33,7 +33,7 @@
   ],
   "peerDependencies": {
     "ng-zorro-antd": "ZORRO-0.0.0-PLACEHOLDER",
-    "@delon/util": "PEER-0.0.0-PLACEHOLDER"
+    "@tigers/util": "PEER-0.0.0-PLACEHOLDER"
   },
   "sideEffects": false
 }

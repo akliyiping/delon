@@ -4,7 +4,7 @@ title: 开始使用
 type: Documents
 ---
 
-@delon/form 是一个基于 [JSON Schema](http://json-schema.org/) 标准的动态构建表单。
+@tigers/form 是一个基于 [JSON Schema](http://json-schema.org/) 标准的动态构建表单。
 
 ## 特性
 
@@ -27,16 +27,16 @@ type: Documents
 
 ## 如何使用
 
-安装 `@delon/form` 依赖包：
+安装 `@tigers/form` 依赖包：
 
 ```bash
-npm install @delon/form --save
+npm install @tigers/form --save
 ```
 
 导入 `DelonFormModule` 模块：
 
 ```typescript
-import { DelonFormModule } from '@delon/form';
+import { DelonFormModule } from '@tigers/form';
 
 @NgModule({
   imports: [
@@ -46,7 +46,7 @@ import { DelonFormModule } from '@delon/form';
 export class AppModule { }
 ```
 
-虽然默认 `@delon/form` 校验是 [ajv](http://epoberezkin.github.io/ajv/)，但这并不是唯一的选择，你可以覆盖 `SchemaValidatorFactory` 使用其他校验类库，所以 `ajv` 并没有强制依赖；其实从另一个点来看将这种第三方类库统一在 `scripts` 加载才是更合理的，因此你依然要自己安装 `ajv` 并在 `angular.json` 中导入它：
+虽然默认 `@tigers/form` 校验是 [ajv](http://epoberezkin.github.io/ajv/)，但这并不是唯一的选择，你可以覆盖 `SchemaValidatorFactory` 使用其他校验类库，所以 `ajv` 并没有强制依赖；其实从另一个点来看将这种第三方类库统一在 `scripts` 加载才是更合理的，因此你依然要自己安装 `ajv` 并在 `angular.json` 中导入它：
 
 ```bash
 npm i --save ajv @types/ajv
@@ -65,7 +65,7 @@ angular.json
 全局配置性可以通过在根模块或 `DelonModule` 里覆盖，例如：
 
 ```ts
-import { DelonFormConfig } from '@delon/abc';
+import { DelonFormConfig } from '@tigers/abc';
 export function fnDelonFormConfig(): DelonFormConfig {
   return Object.assign(new DelonFormConfig(), <DelonFormConfig>{
     // values

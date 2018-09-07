@@ -11,9 +11,9 @@ describe('Schematic: ng-add', () => {
 
   beforeEach(() => ({ runner, tree } = createAlainApp()));
 
-  it('should dependencies @delon of an application', () => {
+  it('should dependencies @tigers of an application', () => {
     const packageJson = JSON.parse(tree.readContent('package.json'));
-    expect(packageJson.dependencies['@delon/theme']).toBeDefined();
+    expect(packageJson.dependencies['@tigers/theme']).toBeDefined();
     expect(packageJson.dependencies['@antv/g2']).not.toBeDefined();
   });
 

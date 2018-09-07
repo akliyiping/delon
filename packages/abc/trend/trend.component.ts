@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { toBoolean } from '@delon/util';
+import { toBoolean } from '@tigers/util';
 
 @Component({
   selector: 'trend',

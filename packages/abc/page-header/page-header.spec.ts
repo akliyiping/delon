@@ -16,8 +16,8 @@ import {
   AlainI18NService,
   ALAIN_I18N_TOKEN,
   TitleService,
-} from '@delon/theme';
-import { DelonACLModule } from '@delon/acl';
+} from '@tigers/theme';
+import { DelonACLModule } from '@tigers/acl';
 
 import { AdPageHeaderModule } from './page-header.module';
 import { PageHeaderComponent } from './page-header.component';

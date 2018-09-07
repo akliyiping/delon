@@ -14,7 +14,7 @@ import {
   OnDestroy,
 } from '@angular/core';
 import { NgModel } from '@angular/forms';
-import { updateHostClass, toNumber } from '@delon/util';
+import { updateHostClass, toNumber } from '@tigers/util';
 import { Subscription } from 'rxjs';
 
 import { SHFWrapDirective } from './wrap.directive';

@@ -12,7 +12,7 @@ import {
   ChangeDetectorRef,
   AfterViewInit,
 } from '@angular/core';
-import { toNumber } from '@delon/util';
+import { toNumber } from '@tigers/util';
 
 @Component({
   selector: 'g2-timeline',

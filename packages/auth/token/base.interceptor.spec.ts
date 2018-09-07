@@ -8,7 +8,7 @@ import {
 } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { Router, DefaultUrlSerializer } from '@angular/router';
-import { _HttpClient } from '@delon/theme';
+import { _HttpClient } from '@tigers/theme';
 
 import { DelonAuthModule } from '../auth.module';
 import { DelonAuthConfig } from '../auth.config';

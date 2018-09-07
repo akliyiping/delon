@@ -1,6 +1,6 @@
 import { DebugElement } from '@angular/core';
 import { ComponentFixture, fakeAsync, tick } from '@angular/core/testing';
-import { deepCopy } from '@delon/util';
+import { deepCopy } from '@tigers/util';
 import {
   builder,
   TestFormComponent,

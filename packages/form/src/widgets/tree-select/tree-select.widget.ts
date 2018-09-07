@@ -4,7 +4,7 @@ import { SFSchemaEnum } from '../../schema';
 import { toBool, getData } from '../../utils';
 import { NzTreeNode, NzFormatEmitEvent } from 'ng-zorro-antd';
 import { map } from 'rxjs/operators';
-import { deepCopy } from '@delon/util';
+import { deepCopy } from '@tigers/util';
 
 @Component({
   selector: 'sf-tree-select',

@@ -9,7 +9,7 @@ title: 自定义列
 
 ```ts
 import { Component } from '@angular/core';
-import { SimpleTableColumn, SimpleTableChange, SimpleTableFilter } from '@delon/abc';
+import { SimpleTableColumn, SimpleTableChange, SimpleTableFilter } from '@tigers/abc';
 
 @Component({
     selector: 'app-demo',

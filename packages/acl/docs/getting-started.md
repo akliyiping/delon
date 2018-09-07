@@ -4,7 +4,7 @@ title: 开始使用
 type: Documents
 ---
 
-ACL 全称叫访问控制列表（Access Control List），是一种非常简单的基于角色权限控制方式。一个完全独立 `@delon/acl` 模块（[DEMO](//cipchk.github.io/ng-alain/#/logics/acl)）。
+ACL 全称叫访问控制列表（Access Control List），是一种非常简单的基于角色权限控制方式。一个完全独立 `@tigers/acl` 模块（[DEMO](//cipchk.github.io/ng-alain/#/logics/acl)）。
 
 ## 如何运行？
 
@@ -12,16 +12,16 @@ ACL 全称叫访问控制列表（Access Control List），是一种非常简单
 
 ## 如何使用？
 
-安装 `@delon/acl` 依赖包：
+安装 `@tigers/acl` 依赖包：
 
 ```bash
-npm install @delon/acl --save
+npm install @tigers/acl --save
 ```
 
 导入 `DelonACLModule` 模块：
 
 ```typescript
-import { DelonACLModule } from '@delon/acl';
+import { DelonACLModule } from '@tigers/acl';
 
 @NgModule({
   imports: [

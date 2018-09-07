@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild<% if(!!viewEncapsulation) { %>, ViewEncapsulation<% }%><% if(changeDetection !== 'Default') { %>, ChangeDetectionStrategy<% }%> } from '@angular/core';
-import { _HttpClient, ModalHelper } from '@delon/theme';
-import { SimpleTableColumn, SimpleTableComponent } from '@delon/abc';
-import { SFSchema } from '@delon/form';
+import { _HttpClient, ModalHelper } from '@tigers/theme';
+import { SimpleTableColumn, SimpleTableComponent } from '@tigers/abc';
+import { SFSchema } from '@tigers/form';
 
 @Component({
   selector: '<%= selector %>',<% if(inlineTemplate) { %>

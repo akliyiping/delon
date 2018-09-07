@@ -1,5 +1,5 @@
 {
-  "name": "@delon/auth",
+  "name": "@tigers/auth",
   "version": "0.0.0-PLACEHOLDER",
   "main": "./bundles/auth.umd.js",
   "module": "./esm5/auth.js",
@@ -29,7 +29,7 @@
     "ng-zorro-antd"
   ],
   "peerDependencies": {
-    "@delon/theme": "PEER-0.0.0-PLACEHOLDER"
+    "@tigers/theme": "PEER-0.0.0-PLACEHOLDER"
   },
   "sideEffects": false
 }

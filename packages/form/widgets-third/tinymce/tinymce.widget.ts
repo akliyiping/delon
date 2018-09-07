@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ControlWidget } from '@delon/form';
+import { ControlWidget } from '@tigers/form';
 
 @Component({
   selector: 'sf-tinymce',

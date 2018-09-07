@@ -2,12 +2,12 @@ import { Injector } from '@angular/core';
 import { TestBed, async, inject } from '@angular/core/testing';
 import { filter } from 'rxjs/operators';
 
-import { ACLService } from '@delon/acl';
+import { ACLService } from '@tigers/acl';
 import {
   ALAIN_I18N_TOKEN,
   AlainI18NServiceFake,
 } from '../i18n/i18n';
-import { deepCopy } from '@delon/util';
+import { deepCopy } from '@tigers/util';
 
 import { Menu } from './interface';
 import { MenuService } from './menu.service';

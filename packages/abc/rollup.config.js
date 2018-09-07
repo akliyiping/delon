@@ -45,9 +45,9 @@ const globals = {
 
   'extend': 'extend',
 
-  '@delon/theme': 'delon.theme',
-  '@delon/util': 'delon.util',
-  '@delon/acl': 'delon.acl',
+  '@tigers/theme': 'delon.theme',
+  '@tigers/util': 'delon.util',
+  '@tigers/acl': 'delon.acl',
 };
 
 const listOfDateFns = [

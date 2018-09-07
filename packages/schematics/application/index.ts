@@ -70,7 +70,7 @@ function addDependenciesToPackageJson(options: ApplicationOptions) {
   return (host: Tree, context: SchematicContext) => {
     // 3rd
     addPackageToPackageJson(host, [
-      // allow ignore ng-zorro-antd becauce of @delon/theme dependency
+      // allow ignore ng-zorro-antd becauce of @tigers/theme dependency
       `ng-zorro-antd@${ZORROVERSION}`,
       // ng-zorro-antd need
       'screenfull@^3.3.1',
@@ -81,11 +81,11 @@ function addDependenciesToPackageJson(options: ApplicationOptions) {
       'build',
       'test',
     ]);
-    // @delon/*
+    // @tigers/*
     addPackageToPackageJson(
       host,
       ['abc', 'acl', 'auth', 'cache', 'form', 'mock', 'theme', 'util'].map(
-        pkg => `@delon/${pkg}@${VERSION}`,
+        pkg => `@tigers/${pkg}@${VERSION}`,
       ),
     );
     // i18n
@@ -358,7 +358,7 @@ export default function(options: ApplicationOptions): Rule {
     project = getProject(host, options.project);
 
     return chain([
-      // @delon/* dependencies
+      // @tigers/* dependencies
       addDependenciesToPackageJson(options),
       // ci
       addRunScriptToPackageJson(),

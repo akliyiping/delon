@@ -5,7 +5,7 @@ import {
   Renderer2,
   Input,
 } from '@angular/core';
-import { toNumber } from '@delon/util';
+import { toNumber } from '@tigers/util';
 import { AdSHFConfig } from './config';
 
 @Directive({
