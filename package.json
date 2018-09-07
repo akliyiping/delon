@@ -1,6 +1,6 @@
 {
   "name": "tigers",
-  "version": "1.4.0",
+  "version": "1.0.0",
   "typings": "index.d.ts",
   "description": "Delon is a set of essential modules for ng-alain.",
   "repository": {
