@@ -95,14 +95,6 @@ function addDependenciesToPackageJson(options: ApplicationOptions) {
         `@ngx-translate/http-loader@^3.0.1`,
       ]);
     }
-    const devs = [
-      // ISSUES: [#10430](https://github.com/angular/angular-cli/issues/10430)
-      `less@~2.7.0`,
-      `less-loader@~4.0.0`,
-    ];
-    if (devs.length) {
-      addPackageToPackageJson(host, devs, 'devDependencies');
-    }
     return host;
   };
 }
@@ -270,6 +262,19 @@ function addSchematics() {
   };
 }
 
+function forceLess() {
+  return (host: Tree, context: SchematicContext) => {
+    scriptsToAngularJson(
+      host,
+      ['src/styles.less'],
+      'add',
+      ['build'],
+      null,
+      true,
+    );
+  };
+}
+
 function addStyle(options: ApplicationOptions) {
   return (host: Tree) => {
     addHeadStyle(
@@ -342,8 +347,8 @@ function addFilesToRoot(options: ApplicationOptions) {
         }),
         // move('/')
       ]),
-      MergeStrategy.Overwrite
-    )
+      MergeStrategy.Overwrite,
+    ),
   ]);
 }
 
@@ -370,6 +375,7 @@ export default function(options: ApplicationOptions): Rule {
       removeOrginalFiles(),
       addFilesToRoot(options),
       fixMain(),
+      forceLess(),
       addStyle(options),
       installPackages(),
     ])(host, context);

@@ -89,14 +89,16 @@ export function scriptsToAngularJson(
   behavior: string,
   types: string[] = ['build', 'test'],
   projectName?: string,
+  clean = false
 ): Tree {
   const json = getAngular(host);
   const project = getProjectFromWorkspace(json, projectName);
   types.forEach(type => {
-    const scriptsNode = project.architect[type]!.options!.scripts as string[];
-    const stylesNode = project.architect[type]!.options!.styles as string[];
+    const scriptsNode = (project.targets || project.architect)[type]!.options!.scripts as string[];
+    const stylesNode = (project.targets || project.architect)[type]!.options!.styles as string[];
     for (const path of resources) {
       const list = path.endsWith('.js') ? scriptsNode : stylesNode;
+      if (clean === true) list.length = 0;
       if (behavior === 'add') {
         list.push(path);
       } else {

@@ -6,17 +6,17 @@ type: Documents
 
 ## 写在前面
 
-`@tigers/auth` 是对认证过程进一步处理，通常其核心在于 Access token 的获取、使用环节，因此将集中解决以下三个问题：
+`@delon/auth` 是对认证过程进一步处理，通常其核心在于 Access token 的获取、使用环节，因此将集中解决以下三个问题：
 
 + 如何获取认证信息行为方式，例如：账密、社会化登录Github等
 + 如何存取认证信息，监听认证信息变化
 + 何时使用认证信息，区分不同的认证方式的使用规则，例如：JWT
 
-`@tigers/auth` 并不会关心用户界面是怎么样，只需要当登录成功后将后端返回的数据交给 `ITokenService`，它会帮你存储在 `localStorage` 当中（默认情况下）；当发起一个 http 请求时，它会在自动在 `header` 当中加入相应的 token 信息。
+`@delon/auth` 并不会关心用户界面是怎么样，只需要当登录成功后将后端返回的数据交给 `ITokenService`，它会帮你存储在 `localStorage` 当中（默认情况下）；当发起一个 http 请求时，它会在自动在 `header` 当中加入相应的 token 信息。
 
-因此，`@tigers/auth` 不限于 ng-alain 脚手架，任何 Angular 项目都可以使用它。
+因此，`@delon/auth` 不限于 ng-alain 脚手架，任何 Angular 项目都可以使用它。
 
-> `@tigers/auth` 只是解决认证环节，有关于权限控制可以使用 `@tigers/acl`。
+> `@delon/auth` 只是解决认证环节，有关于权限控制可以使用 `@delon/acl`。
 
 ### 流程
 
@@ -28,7 +28,7 @@ type: Documents
 
 ### Token
 
-`@tigers/auth` 认为请求过程中所需要的一个用于校验有效信息称它为 `Token` 值，不管是采用 JWT 的 `Authorization` 参数，OAuth2 的 `access_token` 等其本质是一串加密字符串。这也是每一次发送请求时所携带的值，因此在 `@tigersn/auth` 中看到只有一个叫 `ITokenModel` 接口用于表述认证信息，且只有一个 `token` 的字符串属性。
+`@delon/auth` 认为请求过程中所需要的一个用于校验有效信息称它为 `Token` 值，不管是采用 JWT 的 `Authorization` 参数，OAuth2 的 `access_token` 等其本质是一串加密字符串。这也是每一次发送请求时所携带的值，因此在 `@delonn/auth` 中看到只有一个叫 `ITokenModel` 接口用于表述认证信息，且只有一个 `token` 的字符串属性。
 
 ### 认证风格
 
@@ -36,16 +36,16 @@ type: Documents
 
 ## 如何使用？
 
-安装 `@tigers/auth` 依赖包：
+安装 `@delon/auth` 依赖包：
 
 ```bash
-npm install @tigers/auth --save
+yarn add @delon/auth
 ```
 
 导入 `DelonAuthModule` 模块：
 
 ```typescript
-import { DelonAuthModule, SimpleInterceptor } from '@tigers/auth';
+import { DelonAuthModule, SimpleInterceptor } from '@delon/auth';
 
 @NgModule({
   imports: [
@@ -61,7 +61,7 @@ export class AppModule { }
 
 **为什么需要HTTP_INTERCEPTORS**
 
-默认 `DelonAuthModule` 并不会注册任何HTTP拦截器，主要是因为 `@tigers/auth` 提供了多种不同[认证风格](/auth/style)。
+默认 `DelonAuthModule` 并不会注册任何HTTP拦截器，主要是因为 `@delon/auth` 提供了多种不同[认证风格](/auth/style)。
 
 ## 配置信息
 
@@ -83,7 +83,7 @@ export class AppModule { }
 
 ```ts
 // delon.module.ts
-import { DelonAuthConfig } from '@tigers/auth';
+import { DelonAuthConfig } from '@delon/auth';
 export function delonAuthConfig(): DelonAuthConfig {
   return Object.assign(new DelonAuthConfig(), <DelonAuthConfig>{
     login_url: '/passport/login'
